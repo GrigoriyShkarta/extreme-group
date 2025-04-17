@@ -97,7 +97,7 @@ export default function Navigate() {
 						>
 							FAQ
 						</a>
-						<button
+						{/* <button
 							onClick={() => {
 								setIsMenuOpen(false)
 								setIsFormOpen(true)
@@ -105,7 +105,7 @@ export default function Navigate() {
 							className='bg-gradient-to-r from-red-600 to-purple-600 px-6 py-2 rounded-full font-bold hover:opacity-90 transition w-full'
 						>
 							Записатись
-						</button>
+						</button> */}
 					</div>
 				</div>
 			)}
