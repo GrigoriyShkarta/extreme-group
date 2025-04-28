@@ -34,7 +34,7 @@ export default function Countdown() {
 				<h2 className='text-3xl md:text-4xl font-bold mb-8'>
 					Старт{' '}
 					<span className='bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text text-transparent'>
-						10 квітня
+						10 травня
 					</span>
 				</h2>
 
