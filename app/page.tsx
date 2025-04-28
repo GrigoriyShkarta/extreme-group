@@ -1,4 +1,5 @@
 import AfterFinish from '@/components/AfterFinish'
+import Countdown from '@/components/CountDown'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
 import ForWhom from '@/components/ForWhom'
@@ -16,6 +17,7 @@ export default function Home() {
 			<ForWhom />
 			<AfterFinish />
 			<Program />
+			<Countdown />
 			<Prices />
 			<Testimonials />
 			<FAQ />

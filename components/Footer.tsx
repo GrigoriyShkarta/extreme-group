@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<footer className='bg-gray-950 py-12 px-4 border-t border-gray-800'>
 			<div className='container mx-auto'>
-				<div className='grid grid-cols-1 md:grid-cols-4 gap-8 mb-8'>
+				<div className='grid  gap-8 mb-8'>
 					{/* Лого и описание */}
 					<div className='space-y-4'>
 						<div className='text-2xl font-bold bg-gradient-to-r from-red-500 to-purple-600 bg-clip-text text-transparent'>
