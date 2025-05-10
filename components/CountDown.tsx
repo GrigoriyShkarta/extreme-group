@@ -1,37 +1,37 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 
 export default function Countdown() {
-	const targetDate = new Date('2025-05-10T00:00:00') // Старт 10 квітня
-	const [timeLeft, setTimeLeft] = useState({
-		days: 0,
-		hours: 0,
-		minutes: 0,
-	})
+	// const targetDate = new Date('2025-05-10T00:00:00') // Старт 10 квітня
+	// const [timeLeft, setTimeLeft] = useState({
+	// 	days: 0,
+	// 	hours: 0,
+	// 	minutes: 0,
+	// })
 
-	useEffect(() => {
-		const interval = setInterval(() => {
-			const now = new Date()
-			const difference = targetDate.getTime() - now.getTime()
-
-			if (difference > 0) {
-				const days = Math.floor(difference / (1000 * 60 * 60 * 24))
-				const hours = Math.floor((difference / (1000 * 60 * 60)) % 24)
-				const minutes = Math.floor((difference / (1000 * 60)) % 60)
-				setTimeLeft({ days, hours, minutes })
-			} else {
-				clearInterval(interval)
-			}
-		}, 1000)
-
-		return () => clearInterval(interval)
-	}, [])
+	// 	useEffect(() => {
+	// 		const interval = setInterval(() => {
+	// 			const now = new Date()
+	// 			const difference = targetDate.getTime() - now.getTime()
+	//
+	// 			if (difference > 0) {
+	// 				const days = Math.floor(difference / (1000 * 60 * 60 * 24))
+	// 				const hours = Math.floor((difference / (1000 * 60 * 60)) % 24)
+	// 				const minutes = Math.floor((difference / (1000 * 60)) % 60)
+	// 				setTimeLeft({ days, hours, minutes })
+	// 			} else {
+	// 				clearInterval(interval)
+	// 			}
+	// 		}, 1000)
+	//
+	// 		return () => clearInterval(interval)
+	// 	}, [])
 
 	return (
 		<section className='py-20 px-4 sm:px-6 bg-black text-white'>
 			<div className='max-w-4xl mx-auto text-center'>
-				<h2 className='text-3xl md:text-4xl font-bold mb-8'>
+				{/* <h2 className='text-3xl md:text-4xl font-bold mb-8'>
 					Старт{' '}
 					<span className='bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text text-transparent'>
 						10 травня
@@ -51,15 +51,12 @@ export default function Countdown() {
 							</span>
 						</div>
 					</div>
-					{/* <div className='flex flex-col items-center'>
-						<span className='text-5xl'>{timeLeft.hours}</span>
-						<span className='mt-1 text-sm'>Годин</span>
-					</div>
-					<div className='flex flex-col items-center'>
-						<span className='text-5xl'>{timeLeft.minutes}</span>
-						<span className='mt-1 text-sm'>Хвилин</span>
-					</div> */}
-				</div>
+
+				</div> */}
+				<h2 className='text-3xl md:text-4xl font-bold mb-8'>
+					НАБІР ДО ГРУПИ ЗАКРИТИЙ
+				</h2>
+				<p>Слідкуй за актуальною інформацією у соціальних мережах</p>
 			</div>
 		</section>
 	)
