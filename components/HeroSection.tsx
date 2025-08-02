@@ -8,7 +8,8 @@ export default function HeroSection() {
 						<span className='bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text text-transparent'>
 							З НУЛЯ
 						</span>{' '}
-						ЗА 6 МІСЯЦІВ
+						{/* ЗА 6 МІСЯЦІВ */}
+						ЗА 3 МІСЯЦІ
 					</h1>
 					<p className='text-xl mb-8 text-gray-300'>
 						Онлайн-курс у міні-групах, де ти крок за кроком опануєш всі

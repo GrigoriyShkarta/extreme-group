@@ -11,11 +11,11 @@ export default function Prices() {
 
 				{/* <div className='grid md:grid-cols-2 gap-8 mx-auto'> */}
 				<div className='bg-gradient-to-br from-red-900/50 to-purple-900/50 p-8 rounded-xl border border-purple-500/30 relative overflow-hidden'>
-					<h3 className='text-2xl font-bold mb-4'>3000 грн/місяць</h3>
+					<h3 className='text-2xl font-bold mb-4'>6000 грн/місяць</h3>
 					<p className='text-gray-300 mb-6'>В один абонемент входить:</p>
 					<ul className='space-y-3 mb-8'>
 						{[
-							'4 онлайн-уроки в міні-групі',
+							'8 онлайн-уроків в міні-групі',
 							'Доступ до навчальної платформи з усіма матеріалами',
 							'Перевірка ДЗ та підтримка в Telegram',
 						].map((item, index) => (
