@@ -1,32 +1,32 @@
 'use client'
 
-import {useEffect, useState} from 'react'
+// import {useEffect, useState} from 'react'
 
 export default function Countdown() {
-	const targetDate = new Date('2025-09-08T00:00:00') // Старт 10 квітня
-	const [timeLeft, setTimeLeft] = useState({
-		days: 0,
-		hours: 0,
-		minutes: 0,
-	})
-
-	useEffect(() => {
-		const interval = setInterval(() => {
-			const now = new Date()
-			const difference = targetDate.getTime() - now.getTime()
-
-			if (difference > 0) {
-				const days = Math.floor(difference / (1000 * 60 * 60 * 24))
-				const hours = Math.floor((difference / (1000 * 60 * 60)) % 24)
-				const minutes = Math.floor((difference / (1000 * 60)) % 60)
-				setTimeLeft({ days, hours, minutes })
-			} else {
-				clearInterval(interval)
-			}
-		}, 1000)
-
-		return () => clearInterval(interval)
-	}, [])
+	// const targetDate = new Date('2025-09-08T00:00:00') // Старт 10 квітня
+	// const [timeLeft, setTimeLeft] = useState({
+	// 	days: 0,
+	// 	hours: 0,
+	// 	minutes: 0,
+	// })
+  //
+	// useEffect(() => {
+	// 	const interval = setInterval(() => {
+	// 		const now = new Date()
+	// 		const difference = targetDate.getTime() - now.getTime()
+  //
+	// 		if (difference > 0) {
+	// 			const days = Math.floor(difference / (1000 * 60 * 60 * 24))
+	// 			const hours = Math.floor((difference / (1000 * 60 * 60)) % 24)
+	// 			const minutes = Math.floor((difference / (1000 * 60)) % 60)
+	// 			setTimeLeft({ days, hours, minutes })
+	// 		} else {
+	// 			clearInterval(interval)
+	// 		}
+	// 	}, 1000)
+  //
+	// 	return () => clearInterval(interval)
+	// }, [])
 
 	return (
 		<section className='py-20 px-4 sm:px-6 bg-black text-white'>
