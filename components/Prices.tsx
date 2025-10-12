@@ -25,13 +25,17 @@ export default function Prices() {
 							</li>
 						))}
 					</ul>
+          
 					{/* <p className='text-gray-400'>
 						Формат оплати: щомісячна або відразу за кілька місяців — як тобі
 						зручно.
 					</p> */}
 				</div>
-
-				{/* <div className='bg-gradient-to-br from-red-900/50 to-purple-900/50 p-8 rounded-xl border border-purple-500/30 relative overflow-hidden'>
+        
+        <p className='text-center text-white mt-8'>Для бронювання місця необхідно внести передоплату в розмірі 500 грн. Решту суми можна сплатити до 2 листопада включно.</p>
+        
+        
+        {/* <div className='bg-gradient-to-br from-red-900/50 to-purple-900/50 p-8 rounded-xl border border-purple-500/30 relative overflow-hidden'>
 						<div className='absolute -top-4 -right-4 bg-yellow-400 text-black px-4 py-1 rounded-full font-bold text-sm transform rotate-12'>
 							БОНУС
 						</div>
