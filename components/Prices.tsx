@@ -32,7 +32,7 @@ export default function Prices() {
 					</p> */}
 				</div>
         
-        <p className='text-center text-white mt-8'>Для бронювання місця необхідно внести передоплату в розмірі 500 грн. Решту суми можна сплатити до 2 листопада включно.</p>
+        {/*<p className='text-center text-white mt-8'>Для бронювання місця необхідно внести передоплату в розмірі 500 грн. Решту суми можна сплатити до 2 листопада включно.</p>*/}
         
         
         {/* <div className='bg-gradient-to-br from-red-900/50 to-purple-900/50 p-8 rounded-xl border border-purple-500/30 relative overflow-hidden'>
